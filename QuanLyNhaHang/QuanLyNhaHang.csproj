@@ -34,6 +34,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <LangVersion>7.3</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -42,6 +43,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <LangVersion>7.3</LangVersion>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.AI.Agent.Intercept, Version=1.2.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -267,9 +269,22 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Images\templatemo_bullet.png" />
+    <Content Include="Images\templatemo_container_bg.jpg" />
+    <Content Include="Images\templatemo_current.png" />
+    <Content Include="Images\templatemo_footer.jpg" />
+    <Content Include="Images\templatemo_header_bg.jpg" />
+    <Content Include="Images\templatemo_login_arrow.jpg" />
+    <Content Include="Images\templatemo_photo1.jpg" />
+    <Content Include="Images\templatemo_photo2.jpg" />
+    <Content Include="Images\templatemo_products.jpg" />
+    <Content Include="Images\templatemo_top_photo.jpg" />
+    <Content Include="Images\templatemo_top_right.jpg" />
+    <Content Include="Content\templatemo_style.css" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Images\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
